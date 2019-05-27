@@ -494,6 +494,30 @@
     text-decoration: none;
     }
 
+    .device-action-btn{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #069455;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #069455;
+    border-radius: 2px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+
+     .device-action-btn:hover{
+        color: #fafafa;
+        background-color: #04884e;
+     }
+
     /* Banner call us now  */
     
     .banner-call{
@@ -576,12 +600,12 @@
     color: #ffffff;
     text-transform: uppercase;
     background-color: #069455;
-    padding-top: 9px;
-    padding-bottom: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     border: 1px solid #069455;
     border-radius:2px;
-    margin-top: 20px;
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 14px;
     margin-bottom: 10px;
     }
 
@@ -598,12 +622,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    width: 55%;
     margin-top: 15px;
     }
 
 
-     .pick-service-list{
+    .pick-service-list{
     list-style-type: none;
     width: 100%;
     display: block;
@@ -611,12 +635,12 @@
     }
 
     .pick-service-list li{
-       width: 27%;
+       width: 25%;
     display: block;
     float: left;
     margin-bottom: 12px;
     border: 1px solid #eee;
-    margin-left: 12px;
+    margin-left: 14px;
     padding-top: 10px;
     }
 
@@ -624,31 +648,163 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 43%;
     }
 
     .pick-service-list li a p{
-        font-family: "Open Sans";
+    font-family: "Open Sans";
     font-weight:600;
     color: #0f2944 !important;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     margin-top: 4px;
     margin-bottom: 7px;
     }
 
-     .pick-service-list  .list-maintitle{
-        font-family: "Open Sans";
+    .pick-service-list  .list-maintitle{
+    font-family: "Open Sans";
     font-weight:700;
     color: #0f2944 !important;
     font-size: 19px;
     text-align: center;
     margin-top: 5px;
     margin-bottom: 19px
-     }
+    }
+
+
+     /* Home number counter */
+
+    .counter-facts{
+    padding-top:10px;
+    padding-bottom:15px;
+    }
+
+    .counter{
+    padding-top: 15px;
+    }
+
+    .counter img{
+    display: block;
+    margin-right: auto;margin-left: auto;
+    }
+
+    .counter-count{
+    font-size:40px;
+    position: relative;
+    color: #069455;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight:700;
+    margin-bottom: 5px;
+    }
+
+    .counter .counter-title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #0f2944;
+    font-size:14px;
+    margin-top:5px;
+    text-align: center;
+    }
+
+
+    /* Location  section on home page */
+
+    #location-home{
+    padding-bottom:2%;
+    padding-top:2%;
+    background-image: url(../img/ny-gray-background.png);
+    background-size: cover;
+    }
+
+    #location-home .location-img img{
+     display: block;
+     width:55%;
+     margin-right: auto;
+     margin-left: auto;
+    }
+
+    #location-home .about-location{
+    display: block;
+    width: 100%;
+    }
+
+    #location-home .about-location .title{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color:#069455;
+    font-size: 24px;
+    margin-bottom:25px;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
    
+    }
+
+    #location-home .about-location h5{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #0f2944;
+    font-size: 20px;
+    text-align: center;
+   }
 
 
+    #location-home .about-location p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #0f2944;
+    font-size: 13px;
+    text-align: center;
+   }
 
+   #location-home .about-location .btn-go-location{
+        display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #069455;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #069455;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-top:50px;
+   }
+
+   #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    }
+    #back-to-top:hover {
+    background: rgba(0,0,0,0.5);
+    }
+    #back-to-top.show {
+    opacity: 1;
+    }
+
+    
 
 
 
@@ -656,12 +812,12 @@
 
 
 	  footer{
-    background: #12171a;
-    padding-top: 45px;
+    background:#0a0f13;
+    padding-top:30px;
     padding-bottom:0;
     }
 
-    footer .partners-left {
+    footer .logo-left {
     display: block;
     float: left;
     list-style-type: none;
@@ -688,14 +844,14 @@
 
      /* Footer contact inforamtion on left side */
 
-	.partners-left li {
+	.logo-left li {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 	width:90%;
 	}
 
-	.partners-left li a{
+	.logo-left li a{
 	font-family: "Open Sans";
     font-weight: 400;
     color: #dee1e3;
@@ -704,40 +860,33 @@
     letter-spacing: 1px;
     text-decoration: none;
 	}
-	.partners-left li a .fa{
+	.logo-left li a .fa{
 	margin-right: 8px;
 	 color: #dee1e3;
 	 font-size: 7px;
 	 vertical-align: 2px;
 	}
 
-	.partners-left li a:hover{
+	.logo-left li a:hover{
 	cursor:pointer;
 	text-decoration: underline;
 	color: #f2bd25;
 	}
 
-	.partners-left h3 {
+    .logo-left li .copy{
     font-family: "Open Sans";
-    font-weight: 400;
-    color: #f2bd25;
-    text-transform: uppercase;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #344149;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-    width: 95%;
-	}
-
-
-
-    .partners-left li img{
+    font-weight:500;
+    color: #d5d2d2 !important;
+    text-align:left;
     display: block;
-    float: left;
-    margin-right:15px;
+    font-size: 11px;
+    margin-top: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 3px ;
+    margin-top:15px; 
     }
+
+
 
 
       /* Footer contact information */
@@ -749,8 +898,8 @@
 
     .adress-nav h3{
     font-family: "Open Sans";
-    font-weight: 400;
-    color: #f2bd25;
+    font-weight: 600;
+    color: #069455;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center; 
@@ -825,8 +974,8 @@
 
     .social-footer  h3{
     font-family: "Open Sans";
-    font-weight: 400;
-    color: #f2bd25;
+    font-weight: 600;
+    color: #069455;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center; 
@@ -897,23 +1046,129 @@
     .sub-footer{
     display: block;
     width: 100%;
-    padding-top:10px;padding-bottom:10px;
+    padding-top:8px;padding-bottom:8px;
     background-color: #0d1113;
-    margin-top: 20px;
+    margin-top:5px;
     }
 
     .sub-footer .copy {
-    font-family: "Open Sans";
+   font-family: "Open Sans";
     font-weight: 400;
-    color: #d5d2d2 !important;
+    color: #b7b6b6 !important;
     text-align: center;
     display: block;
-    font-size: 11px;
+    font-size: 10px;
     float: right;
     margin-top: 3px;
     letter-spacing: 1px;
     margin-bottom: 3px;
     }
+
+    .partners-link{
+    padding-left: 0;
+    display: block;
+    width: 80%;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:1px solid #141d25;
+    margin-top: 20px;
+    }
+
+    .partners-link li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 5px;
+    }
+
+    .partners-link li a{
+     font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 500;
+    color: #dee1e3;
+    text-align:center;
+    letter-spacing: 1px; 
+    }
+
+    .partners-link li a .fa{
+    font-size: 7px;
+    margin-right: 10px;
+    }
+
+    .partners-link li h4{
+      font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 500;
+    color: #dee1e3;
+    text-align:center;
+    letter-spacing: 1px;   
+    padding-left: 30px; 
+    }
+
+    /* HOme Page banner section before after about  */
+
+    .banner-left-1{
+    width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .banner-left-1 .img-fluid{
+   
+    }
+
+    .banner-right-3{
+     width: 100%;
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    }   
+    
+    .banner-center-2 .txt-center{
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    }
+
+
+    .banner-center-2 .txt-center h2{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #0f2944;
+    font-size: 21px;
+    margin-bottom:40px;
+    text-align: center;
+    }
+
+    .banner-center-2 .txt-center p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #0f2944;
+    font-size: 14px;
+    text-align: center;
+    }
+
+    .banner-center-2 .button-go-services{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    font-family: "Open Sans";
+    font-weight:700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #069455;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #069455;
+    border-radius: 2px;
+    margin-top: 35px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+
 
 
 
@@ -1204,6 +1459,8 @@
          #home-section .text-area h2{
             font-size: 25px;
         }
+
+
 
 
 
