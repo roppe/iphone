@@ -124,12 +124,12 @@
 	.nav-list .dropdown .nav-dropdown .open-repair{
 	width: 100%;
 	border: none;
-	background-color:#073664 ;
+	background-color:#069455 ;
 	padding-top: 7px;padding-bottom: 7px;
 	}
 
 	.nav-list .dropdown .nav-dropdown .open-repair:hover{
-	background:#094279;
+	background:#057a46;
 	}
 
     .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
@@ -167,13 +167,13 @@
 
     .nav-list .dropdown .nav-dropdown a p{
     font-family: "Open Sans";
-    font-weight: 500;
-    color: #073664;
+    font-weight: 600;
+    color: #0f2944;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
      padding-left: 15px;padding-right: 15px;
-     margin-top: 10px;
+     margin-top: 7px;
      text-align: center!important;
      width: 100%;
     }
@@ -334,7 +334,10 @@
     margin-right: auto;
     margin-left: auto;
     width: 68%;
+
     }
+
+
 
     .process-steps h6{
     font-family: 'Open Sans';
@@ -823,6 +826,7 @@
     list-style-type: none;
     padding-left: 0;
     width: 100%;
+    margin-top: 22px;
     }
 
      footer .text-rights{
@@ -995,6 +999,7 @@
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 10px;
+    float: right;
     }
 
     .social-footer li p{
