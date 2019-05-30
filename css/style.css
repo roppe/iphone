@@ -21,7 +21,7 @@
 	 .main-navigation .logo-header{
     display: block;
     float: left;
-    width: 220px !important;height:65px;
+    width: 240px !important;height:55px;
     background:url(../img/logo-ny-iphone-repair.png) 0 0 no-repeat;
     margin-right: 0 !important;
     margin-top: 10px;
@@ -39,7 +39,7 @@
 	.main-navigation .nav-list .nav-link{
 	font-family: "Open Sans";
 	font-weight:600;
-	 color: #0f2944;
+	 color: #313433;
 	text-transform:uppercase;
 	letter-spacing: 1px;
 	font-size: 13px;
@@ -50,10 +50,10 @@
 	}
 
     .nav-list .nav-item .btn-nav-book{
-    background-color: #069455;
+    background-color: #039be5;
     padding-top: 6px;
     padding-bottom:6px;
-    border: 1px solid #069455;
+    border: 1px solid #039be5;
     color: #ffffff;
     border-radius:2px;
     }
@@ -61,12 +61,12 @@
 
     .main-navigation .nav-list .nav-link:hover{
     cursor: pointer;
-    color: #069455;
+    color: #039be5;
     }
 
      .nav-list .nav-item .btn-nav-book:hover{
     color: #fafafa !important;
-    background-color: #057f49;
+    background-color: #0483c1;
     }
 
 
@@ -74,7 +74,7 @@
     .nav-list .dropdown{
     font-family: "Open Sans";
     font-weight:600;
-    color: #0f2944;
+    color: #313433;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -85,7 +85,7 @@
     }
 
     .nav-list .dropdown a{
-    color: #073664;
+    color: #313433;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -103,18 +103,22 @@
 
    .nav-list .dropdown .nav-dropdown{
     border-radius: 0;
-    width:400px;
+    width:240px;
     padding-bottom:0;
       padding-top: 0;
     }
 
     .nav-list .dropdown .nav-dropdown li{
-    padding-top: 15px;
+    padding-top:8px;padding-bottom:8px;
     display: inline !important;
     float: left;
     border-right: 1px solid #eee;
     border-top:1px solid #eee; 
-    width: 33%;
+    width:100%;
+    }
+
+    .nav-list .dropdown .nav-dropdown li:nth-child(2n){
+        background-color: #f9f6f6;
     }
 
     .nav-list .dropdown .nav-dropdown li:nth-child(3n){
@@ -124,12 +128,12 @@
 	.nav-list .dropdown .nav-dropdown .open-repair{
 	width: 100%;
 	border: none;
-	background-color:#069455 ;
-	padding-top: 7px;padding-bottom: 7px;
+	background-color:#e69906 ;
+	padding-top:5px;padding-bottom:5px;
 	}
 
 	.nav-list .dropdown .nav-dropdown .open-repair:hover{
-	background:#057a46;
+	background:#cc8807;
 	}
 
     .nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
@@ -168,174 +172,197 @@
     .nav-list .dropdown .nav-dropdown a p{
     font-family: "Open Sans";
     font-weight: 600;
-    color: #0f2944;
+    color: #313433;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
      padding-left: 15px;padding-right: 15px;
-     margin-top: 7px;
-     text-align: center!important;
+     margin-top:0;
+     text-align: left!important;
      width: 100%;
+     margin-bottom:0;
     }
 
     .dropdown .nav-dropdown li a:hover{
-    color:  #ff7201;
+    color: #e69906;
+
     }
 
-     .dropdown .nav-dropdown li a>p:hover{
-    color:#ce2027;
+    .dropdown .nav-dropdown li a>p:hover{
+    color:#e69906;
     }
-	
-	.nav-list .dropdown .nav-dropdown li:hover{
-	background: #f5f6f8;
-	}
-    
 
-	
-	
+    .nav-list .dropdown .nav-dropdown li:hover{
+    background: #f5f6f8;
+    }
 
+    .nav-list .dropdown .nav-dropdown .nav-title a img {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    }
 
+    .nav-list .dropdown .nav-dropdown .nav-title a p{
+    text-align: center !important;
+    padding-top:7px;
+    color: #313433;
+    font-weight: 700;
+    }
 
 
 	/* STYLE FOR HOME TOP SECTION */
 
 	#home-section{
-	background-image: url(../img/home-ny.png);
-	background-size:cover;
-	background-repeat: no-repeat;
-	 padding:170px 0 155px;
-	}
-
-	#home-section .text-area{
-     display: block;
-     margin-bottom: 30px;
-     margin-top:30px;
-     float: right;
-
-	}
-
-	#home-section .text-area h3{
-	font-family: "Open Sans";
-    font-weight: 500;
-    color: #0f2944;
-    font-size:22px;
-    text-align: right;
-   }
-
-   #home-section .text-area h3 span{
-	font-family: "Open Sans";
-    font-weight: 500;
-    color: #073664 !important;
-    font-size: 28px;
-    letter-spacing: 2px;
-   }
-
-   	#home-section .text-area h2{
-	font-family: "Open Sans";
-    font-weight: 600;
-    color:#0f2944;
-    font-size: 28px;
-    text-align:right;
-    margin-top:20px;
-    text-transform: uppercase;
-   }
-
-     #home-section .text-area h2 span{
-	font-family: "Open Sans";
-    font-weight: 600;
-    color:#0f2944;
-    font-size: 28px;
-    text-align:right;
-    margin-top:20px;
-    text-transform: uppercase;
-   }
-
-   	
-	 
-	#home-section .text-area .btn-demo-home{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
-    width: 180px;
-    font-family: "Open Sans";
-    font-weight: 500;
-    color: #073664;
-    text-transform: uppercase;
-    background-color:#069455;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border:1px solid #069455;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    margin-top: 30px;
+	background-image: url(../img/ny-banner-slider.png);
     position: relative;
-    transition: all .2s ease-in-out;
-    white-space: normal !important;
-    word-wrap: break-word !important;
+	background-repeat: no-repeat;
+	 padding:180px 0 10px;
 	}
 
-	#home-section .text-area .btn-demo-home span{
-	font-family: "Open Sans";
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 15px;	
-    vertical-align:0;
-	}
 
-	
-
-
-    /* Home Page Index feautrued icons section on top   */
-
-    .top-icons{
-    border-bottom: 1px solid #eee;
-    background: #fff;
-    }
-
-    .top-icons .icons-service {
-    margin-top: 10px;margin-bottom: 10px;
-    border-left: 1px solid #eee;
-    padding-left: 5px;padding-right:1px;
-    }
-
-    .icons-service img{
-    display: block;
-    float: left;
-    width:35%;
-    }
-
-    .icons-service h5{
-    font-family: 'Open Sans';
-    font-weight: 600;
-    color: #2a2a2a;
-    font-size: 12px;
-    padding-top:15px;
-    padding-left:2px;
-    text-align: center;
-    }
-
-
-
-    
-    /* Home how it works page  */
-
-    #home-process{
-    padding-top:50px;padding-bottom:30px;
-    }
-
-    .process-steps{
+     .process-steps{
     margin-bottom: 10px;
+    max-width: 300px;
+    background-color: #fafafa;
+    margin-right:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:40px;
+    }
+
+    .process-steps:last-child{
+        margin-right: 0;
     }
 
     .process-steps img{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 68%;
+    width:35%;
 
     }
+
+    .services-zone{
+    padding-bottom: 40px;padding-top:60px;
+    }
+
+    .services-zone .title-2{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 28px;
+    margin-top:5px;
+    text-align:center;   
+    padding-bottom: 0;
+    width: 100%;
+    }
+    .services-zone .title-3{
+    font-family: 'Open Sans';
+    font-weight:500;
+    color: #262727;
+    font-size:17px;
+    margin-top:2px;
+    text-align:center;   
+    margin-bottom: 40px;
+    }
+
+    .vertical-tabs{
+    font-size:15px;
+    padding:10px;
+    color:#000
+    }
+    .vertical-tabs .nav-tabs .nav-link{
+    font-family: "Open Sans";
+    font-weight: 600;
+    border-radius: 0;
+    background:transparent;
+    text-align:center;
+    font-size: 13px;
+    border:1px solid #e8e6e6;
+    color:#000;
+    padding-top: 12px;padding-bottom:12px;
+    padding-left:20px;
+    padding-right:20px;
+    }
+    .vertical-tabs .nav-tabs .nav-link.active{
+    background-color:#e69906;!important;
+    color:#fff;
+    }
+    .vertical-tabs .tab-content>.active{
+    background:#fff;
+    display:block;
+    }
+    
+    .vertical-tabs .nav.nav-tabs{
+    border-bottom:0;
+    background-color: transparent;
+    display:block;
+    float:left;
+    margin-right:20px;
+    padding-right:15px;
+ 
+    }
+    .vertical-tabs .sv-tab-panel{
+    background:#fff;
+    padding-top:10px;
+    }
+
+    .tab-pane .sv-tab-panel h3{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color:#e69906;
+    font-size: 21px;
+    margin-bottom:10px;
+    text-align: center;
+    }
+
+
+    .tab-pane .sv-tab-panel p{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size:13px;
+    text-align: center;
+    }
+
+    .tab-pane .sv-tab-panel .btn-group{
+        display: block;
+        margin-right: auto;margin-left: auto;
+        margin-top: 30px;
+    }
+
+    .tab-pane .sv-tab-panel .btn-group .btn-tab-more{
+    margin-right: 20px;
+    background-color:#d6d7d7;
+    color: #6f6d6d;
+    border-radius: 0; 
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size:15px;
+    padding-left: 25px;padding-right:25px;
+    }
+
+     .tab-pane .sv-tab-panel .btn-group .btn-tab-services{
+    background-color:#039BE5;
+    color: #fff;
+    border-radius: 0; 
+    font-family: 'Open Sans';
+    font-weight: 600;
+        font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    }
+
+
+    .tab-pane .sv-tab-panel .img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+
 
 
 
@@ -343,16 +370,16 @@
     font-family: 'Open Sans';
     font-weight: 700;
     color: #0f2944;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     margin-top: 15px;
     }
 
      .process-steps p{
     font-family: 'Open Sans';
-    font-weight: 400;
+    font-weight:600;
     color: #0f2944;
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
     }
 
@@ -373,6 +400,120 @@
     font-style: italic;
     }
 
+	#home-section .text-area{
+     display: block;
+     margin-bottom: 30px;
+     margin-top:15px;
+     float: right;
+
+	}
+
+	#home-section .text-area h3{
+	font-family: "Open Sans";
+    font-weight: 500;
+    color: #fff;
+    font-size:22px;
+    text-align: right;
+   }
+
+   #home-section .text-area h3 span{
+	font-family: "Open Sans";
+    font-weight: 500;
+    color:#fff !important;
+    font-size: 28px;
+    letter-spacing: 2px;
+   }
+
+   	#home-section .text-area h2{
+	font-family: "Open Sans";
+    font-weight:700;
+    color:#ffffff;
+    font-size: 28px;
+    text-align:right;
+    margin-top:20px;
+    text-transform: uppercase;
+   }
+
+     #home-section .text-area h2 span{
+	font-family: "Open Sans";
+    font-weight:700;
+    color:#ffffff;
+    font-size: 28px;
+    text-align:right;
+    margin-top:20px;
+    text-transform: uppercase;
+   }
+
+   	
+	 
+	#home-section .text-area .btn-demo-home{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 180px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #073664;
+    text-transform: uppercase;
+    background-color:#0483c1;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border:1px solid #0483c1;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+    transition: all .2s ease-in-out;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+	}
+
+	#home-section .text-area .btn-demo-home span{
+	font-family: "Open Sans";
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;	
+    vertical-align:0;
+	}
+
+	
+
+
+    /* Home Page Index feautrued icons section on top   */
+
+
+    .icons-service {
+    margin-top:5px;margin-bottom:10px;
+
+    }
+
+    .icons-service img{
+    display: block;
+    float: left;
+    width:35%;
+    margin-right: 15px;
+    }
+
+    .icons-service h5{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #fff;
+    font-size: 13px;
+    padding-top:20px;
+    padding-left:2px;
+    text-align:left;
+
+    }
+
+    /* Home how it works page  */
+
+    #home-process{
+    padding-top:50px;padding-bottom:30px;
+    }
+
+
 
     /* Home page All models repair section  */
 
@@ -381,14 +522,16 @@
     padding-top:30px;
     padding-bottom:45px;
     border-top: 1px solid #eee;
+     background-image: url(../img/orange-background.jpg);
+    background-size: cover;
     }
     
     #models-repair .title-1{
      font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
-    font-size: 34px;
-    margin-top:5px;
+    color: #ffffff;
+    font-size:21px;
+    margin-bottom:25px;
     text-align:center;   
     padding-bottom: 0;
     width: 100%;
@@ -398,9 +541,10 @@
      font-family: 'Open Sans';
     font-weight:500;
     color: #0f2944;
-    font-size:22px;
-    margin-top:2px;
+    font-size:16px;
+    margin-bottom:25px;
     text-align:center;   
+
     }
 
      #models-repair .device-expand{
@@ -408,7 +552,9 @@
     padding-bottom:15px;
     margin-top: 20px;
     -webkit-box-flex: 1;
-    border-radius: 15px;
+    border-radius: 15px;background-color:rgba(0,0,0,.110);
+    border: 1px solid #fafafa;
+
     }
 
     .flex-md-last {
@@ -425,14 +571,23 @@
     width:55%;
     }
 
-   #models-repair .device-expand  h4{
-    font-weight: 500;
+    #models-repair .device-expand  h4{
+    font-weight: 700;
     font-family: "Open Sans";
-    color: #0f2944;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 19px;
     margin-bottom: 10px;
     text-align: center;   
     }
+
+      #models-repair .device-expand  .fa{
+        text-align: center;
+        font-size: 18px;
+        color: #fafafa;
+        display: block;
+        margin-left: auto;margin-right: auto;
+        margin-top: 4px;
+      }
 
     .device-expand:hover{
     background: #fcfbfb;
@@ -452,7 +607,7 @@
     .model-detail-title{
     font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
+    color: #fff;
     font-size: 20px;
     margin-top:20px;
     text-align: center;
@@ -467,7 +622,7 @@
 
     .models-list{
     margin-top: 20px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #d28c0b;
     margin-bottom: 15px;
     }
 
@@ -487,7 +642,7 @@
     .models-list h3{
     font-family: 'Open Sans';
     font-weight:600;
-    color: #0f2944;
+    color: #ffffff;
     font-size:15px;
     margin-top:15px;
     text-align:center;     
@@ -506,10 +661,10 @@
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
-    background-color: #069455;
+    background-color: #039BE5;
     padding-top: 9px;
     padding-bottom: 9px;
-    border: 1px solid #069455;
+    border: 1px solid #039BE5;
     border-radius: 2px;
     margin-top: 30px;
     font-size: 15px;
@@ -518,7 +673,7 @@
 
      .device-action-btn:hover{
         color: #fafafa;
-        background-color: #04884e;
+        background-color:#039BE5;
      }
 
     /* Banner call us now  */
@@ -543,11 +698,12 @@
 
     .banner-call .call-left h5{
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 00;
     color: #ffffff;
     font-size: 28px;
     margin-top: 2px;
     text-align: center;
+     text-shadow: 0px 1px #000;
     }
 
     .banner-call .call-left h5 span{
@@ -558,6 +714,7 @@
     margin-top: 2px;
     letter-spacing: 1px;
     text-align: center;
+        text-shadow: 0px 1px #000;
     }
 
     .banner-call .call-left h5 span .fa{
@@ -567,7 +724,7 @@
     }
 
     .banner-call .btn-started{
-    background: #f19333;
+    background:#039BE5;
     color: #ffffff;
     font-family: 'Open Sans';
     font-weight: 600;
@@ -582,98 +739,100 @@
  
     }
 
-    /* Home Page  Our services section */
-
-    #home-services{
-    padding-bottom: 40px;padding-top: 40px;
+    .banners-and-text{
+    padding-top: 30px;
+    padding-bottom: 40px;
     }
 
-    #home-services .left-text-zone{
-        width: 100%;
-        display: block;
+    #blogCarousel .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom:0;
+
     }
 
-    #home-services .btn-home-request{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-     width:190px;
-    font-family: "Open Sans";
-    font-weight: 500;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #069455;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    border: 1px solid #069455;
-    border-radius:2px;
-    margin-top: 15px;
-    font-size: 14px;
-    margin-bottom: 10px;
+    /* The colour of the indicators */
+    #blogCarousel .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
     }
 
-    .left-text-zone h1{
+    #blogCarousel .carousel-indicators .active {
+    background: #707070;
+    }
+
+
+    .carousel-inner{
+    background-image: url(../img/ny-gray-background.png);
+    background-size: cover;
+    padding-bottom: 30px;padding-top: 30px;
+    width: 100%;
+    background-position: center;
+    border:1px solid #eee;
+    }
+
+    .carousel-item .img-fluid{
+    float: left;
+    width:45%;
+    display: block;
+    }
+
+  
+
+    .carousel-item .carusel-text{
     font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
-    font-size: 21px;
-    margin-bottom:25px; 
-    text-align: center;  
-    }
-
-    #home-services .left-text-zone .img-fluid{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    margin-top: 15px;
-    }
-
-
-    .pick-service-list{
-    list-style-type: none;
+    color: #e69906;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 0;
     width: 100%;
-    display: block;
-    float: left;
+    text-decoration: none;
     }
 
-    .pick-service-list li{
-       width: 25%;
-    display: block;
-    float: left;
-    margin-bottom: 12px;
-    border: 1px solid #eee;
-    margin-left: 14px;
-    padding-top: 10px;
+    .carousel-item .carusel-text-2{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #313433;
+    font-size: 14px;
+    margin-top:15px;
+    text-align: center;
+    padding-bottom: 0;
+    width: 100%;
+    text-decoration: none;
     }
 
-    .pick-service-list li a img{
-    display: block;
-    margin-right: auto;
+    .carousel-item a:hover{
+        text-decoration: none;
+    }
+
+    .carousel-item .carousel-cta{
+     display: block;
     margin-left: auto;
-    width: 43%;
-    }
-
-    .pick-service-list li a p{
+    margin-right: auto;
+    width: 210px;
+    float: right;
     font-family: "Open Sans";
-    font-weight:600;
-    color: #0f2944 !important;
-    font-size: 13px;
-    text-align: center;
-    margin-top: 4px;
-    margin-bottom: 7px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #039BE5;
+    padding-top: 8px;
+    padding-bottom:8px;
+    border: 1px solid #039BE5;
+    border-radius: 2px;
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right:25px;
     }
 
-    .pick-service-list  .list-maintitle{
-    font-family: "Open Sans";
-    font-weight:700;
-    color: #0f2944 !important;
-    font-size: 19px;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 19px
+    .carousel-item .carousel-cta:hover{
+        background-color: #087fb9;
     }
-
 
      /* Home number counter */
 
@@ -714,15 +873,15 @@
     /* Location  section on home page */
 
     #location-home{
-    padding-bottom:2%;
+    padding-bottom:0;
     padding-top:2%;
-    background-image: url(../img/ny-gray-background.png);
+    background-image: url(../img/ny-skyline.jpg);
     background-size: cover;
     }
 
     #location-home .location-img img{
      display: block;
-     width:55%;
+     width:78%;
      margin-right: auto;
      margin-left: auto;
     }
@@ -734,10 +893,10 @@
 
     #location-home .about-location .title{
     font-family: 'Open Sans';
-    font-weight: 600;
-    color:#069455;
+    font-weight: 700;
+    color:#ffffff;
     font-size: 24px;
-    margin-bottom:25px;
+    margin-bottom:10px;
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -747,7 +906,7 @@
     #location-home .about-location h5{
     font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
+    color: #fff;
     font-size: 20px;
     text-align: center;
    }
@@ -756,7 +915,7 @@
     #location-home .about-location p{
     font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
+    color: #fff;
     font-size: 13px;
     text-align: center;
    }
@@ -770,10 +929,10 @@
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
-    background-color: #069455;
+    background-color: #039BE5;
     padding-top: 9px;
     padding-bottom: 9px;
-    border: 1px solid #069455;
+    border: 1px solid #039BE5;
     border-radius: 2px;
     margin-top: 15px;
     font-size: 14px;
@@ -807,7 +966,110 @@
     opacity: 1;
     }
 
+    /* FAQ SECTION  */
+
+
+    /* FAQ  SECTION */
+
+    #faq-section-ta{
+    background-color: #ffffff;
+    display: block;
+    padding-top:40px;
+    padding-bottom:50px;
+        background-image: url(../img/line-pattern.png);
+    background-repeat: repeat-x;
+    }
+
+    #faq-section-ta .text-faq-box{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+    #faq-section-ta .text-faq-box h3{
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #373739;
+    font-size:20px;
+
+    text-align: center;
+    padding-bottom: 7px;
+     word-wrap: break-word !important;
+    }
     
+    #faq-section-ta .text-faq-box h2{
+     font-weight: 600;
+    color: #373739;
+    font-size:32px;
+    text-align: center;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:5px;
+   
+    font-family: "Open Sans";
+    }
+
+    .card-faq{
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: 1px solid #f5f0f0;
+    }
+
+    .webpro-faq .card-body{
+    background-color: #ffffff;
+    font-family: "Open Sans";
+    font-weight:500;
+    color:#313433;
+    font-size: 15px;
+    border-left: 2px solid #e69906;
+     }
+
+    .webpro-faq .faq-header{
+    padding-top:8px;padding-bottom:8px;
+    font-family: "Open Sans";
+    font-weight:700;
+    color: #313433; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fafafa;
+    border-bottom: 0;
+      white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+
+    .webpro-faq .faq-header .btn{
+    font-family: "Open Sans";
+    font-weight:600;
+    color: #5f5f5f;
+    font-size: 15px;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    }
+
+     .webpro-faq .faq-header .btn .fa{
+    float: right;
+    color: #d0cfcf;
+
+    }
+      .webpro-faq .faq-header .btn:hover{
+    cursor: pointer;
+     color: #e69906;
+    }
+
+    .webpro-faq .btn:active,  .faq-header .btn:focus {
+    border-color: transparent;
+    box-shadow: none;
+    color: #e69906;
+    text-decoration: none;
+    }
+
+    .faq-header .btn:active .fa,  .faq-header .btn:focus .fa {
+    border-color: transparent;
+    color: #e69906;
+    }
+
 
 
 
@@ -903,7 +1165,7 @@
     .adress-nav h3{
     font-family: "Open Sans";
     font-weight: 600;
-    color: #069455;
+    color: #e69906;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center; 
@@ -979,7 +1241,7 @@
     .social-footer  h3{
     font-family: "Open Sans";
     font-weight: 600;
-    color: #069455;
+    color: #e69906;
     text-transform: uppercase;
     font-size: 12px;
     text-align: center; 
@@ -1134,47 +1396,80 @@
     .banner-center-2 .txt-center{
     display: block;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 15px;
     }
 
 
     .banner-center-2 .txt-center h2{
     font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
-    font-size: 21px;
-    margin-bottom:40px;
-    text-align: center;
+    color: #313433;
+    font-size: 26px;
+    margin-bottom:20px;
+    text-align: left;
     }
 
     .banner-center-2 .txt-center p{
     font-family: 'Open Sans';
     font-weight: 600;
-    color: #0f2944;
+    color: #313433;
     font-size: 14px;
-    text-align: center;
+    text-align:left;
     }
 
     .banner-center-2 .button-go-services{
-    display:block;
+       display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 220px;
+    float: left;
+    width:190px;
     font-family: "Open Sans";
-    font-weight:700;
+    font-weight:600;
     color: #ffffff;
     text-transform: uppercase;
-    background-color: #069455;
+    background-color:#039BE5;
     padding-top: 9px;
     padding-bottom: 9px;
-    border: 1px solid #069455;
+    border: 1px solid #039BE5;
     border-radius: 2px;
     margin-top: 35px;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 10px;
     }
 
+    /* REPAIR PAGE SERVICES   */
 
+    .banner-cover-repair{
+    padding-bottom:70px;
+    margin-top:125px;
+    background-color: #eee;
+    /*background-image: url(../img/screen-page-banner-top.jpg);*/
+    width: 100%;
+    height:340px;
+    background-size: cover;
+    background-position: center top;
+    }
+
+    .banner-cover-repair .text-headline h2{
+    font-size:35px;
+    font-family: "Open Sans";
+    text-align: left;
+    color: #073664;
+    font-weight:300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;    
+    }
+
+    .banner-cover-repair .text-headline h2 span{
+    font-size:35px;
+    font-family: "Open Sans";
+    text-align: left;
+    color: #073664;
+    font-weight:500;    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    }
 
 
 
