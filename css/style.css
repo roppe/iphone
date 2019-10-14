@@ -1441,36 +1441,347 @@
 
     .banner-cover-repair{
     padding-bottom:70px;
-    margin-top:125px;
+    margin-top:70px;
     background-color: #eee;
-    /*background-image: url(../img/screen-page-banner-top.jpg);*/
+    background-image: url(../img/ny-gray-background.png);
     width: 100%;
-    height:340px;
     background-size: cover;
     background-position: center top;
+    position: relative;
+    height:200px;
     }
 
     .banner-cover-repair .text-headline h2{
-    font-size:35px;
+    font-size:26px;
     font-family: "Open Sans";
-    text-align: left;
-    color: #073664;
-    font-weight:300;
+    text-align:center;
+    color: #e69906;
+    font-weight:500;
     letter-spacing: 1px;
     margin-bottom: 20px;    
     }
 
     .banner-cover-repair .text-headline h2 span{
-    font-size:35px;
+    font-size:34px;
     font-family: "Open Sans";
-    text-align: left;
-    color: #073664;
-    font-weight:500;    
+    text-align:center;
+    color: #e69906;
+    font-weight:700;    
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
     }
 
+    .banner-cover-repair .text-headline{
+    background-color:transparent;
+    margin-top: 50px;
+    border: 5px solid #e69906;
+    padding-top: 15px;
+    }
+
+    #repair-elements{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+
+    #repair-elements .repair-content{
+    position: relative;
+    display: block; 
+    width: 100%;
+    margin-bottom: 25px;
+    }
+
+    #repair-elements .repair-content h2{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #313433;
+    font-size: 27px;
+    text-align: left;
+    margin-top:15px;
+    margin-bottom:20px;
+    }
+
+    #repair-elements .repair-content  p {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #313433;
+    font-size: 14px;
+    text-align: left;
+    }
+
+    .how-repair-work{
+    display: block;
+    padding-left: 0;
+    width: 100%;
+    margin-top:30px;
+    }
+
+    .how-repair-work li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 30%;
+
+    }
+
+    .how-repair-work li a img{
+    display: block;
+    margin-right: auto;
+    margin-left:auto;
+    width:45%;
+    }
+
+    .how-repair-work li a h6{
+    font-family: "Open Sans";
+    font-weight: 600;
+    color: #313433;
+    font-size: 14px;
+    text-align: center !important;
+    margin-top: 10px;
+    }
+
+    .how-repair-work li a{
+    text-align: center;
+    text-decoration: none;
+    }
+
+   .tooltip-inner {
+    background-color: #67686a;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    padding:10px;
+    }
+
+
+    #repair-elements .gallery-content{
+        width: 100%;
+
+    }
+
+
+    .tz-gallery {
+    padding-top: 4%;padding-bottom:3%;
+    padding-left: 0;padding-right: 0;
+    
+    }
+
+    .tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    height: 90%;
+    }
+
+
+    .tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    }
+
+    .tz-gallery img {
+    border-radius: 4px;
+    }
+
+    .baguetteBox-button {
+    background-color: transparent !important;
+    }
+
+    #about-repair{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+
+
+    /* Booking page desgin */
+
+    #booking-section{
+        padding-bottom: 40px;padding-top: 40px;
+    }
+
+    /*progressbar form*/
+    #progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    }
+
+    #progressbar li {
+    list-style-type: none;
+    color:#2fb050;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 19.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+    }
+
+    #progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    /*     width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background:#f2f2f2;
+    border-radius: 25px;
+    margin: 0 auto 10px auto; */
+    display: block;
+    margin: 0 auto 4px;
+    background-color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: bold;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2fb050;
+    border-radius: 50%;
+    color: #2fb050;
+    }
+
+    /*progressbar connectors*/
+    #progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #f2f2f2;
+    position: absolute;
+    left: -50%;
+    top: 18px;
+    z-index: -1; /*put it behind the numbers*/
+    }
+
+    #progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+    }
+
+    /*marking active/completed steps green*/
+    /*The number of the step and the connector before it = green*/
+    #progressbar li.active:before, #progressbar li.active:after {
+    background:#2fb050;
+    color:#fff;
+    }
+
+    #msform {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    }
+
+    #msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    }
+
+    #msform .booking-form {
+    font-size: 16px;
+    color: #728292;
+    background: transparent;
+    border: 2px solid #a3adb7;
+    border-radius: 0;
+    font-family: "Open Sans";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    }
+
+    #msform .action-button {
+    width: 100px;
+    background: #2fb050;
+    font-weight: 400;
+    color: white;
+    border: 0 none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: 1rem;
+    }
+
+    #msform .action-button-previous {
+    width: 100px;
+    background: #fff;
+    font-weight: 400;
+    color: #2fb050;
+    border: 1px solid #2fb050;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: 1rem;
+    }
+
+
+
+    /* LOCATIONS PAGE  */
+
+
+    #ny-locations{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fafafa;
+    }
+
+    .ny-neighbours-list{
+    display: block;
+    padding-left: 10px;
+    }
+
+    .ny-neighbours-list li{
+    list-style: none;
+    }
+
+    .ny-neighbours-list li a{
+    font-size: 15px;
+    font-family: "Open Sans";  
+    color: #38393a;
+    font-weight:600;
+    text-decoration: none;
+    padding-left:3px;.
+    }
+
+    .ny-neighbours-list .alphabet-letter p{
+    font-family: "Open Sans";  
+    color: #073664;
+    font-weight: 700;
+    font-size: 16px;
+     border-bottom: 1px solid #dad6d6;
+     margin-bottom: 3px;
+   }
+
+   .ny-neighbours-list .alphabet-letter{
+    margin-top: 10px;
+   }
+
+
+
+    .ny-neighbours-list li a:hover{
+    color:#ce2027;
+    }
+
+
+
+
+
+
+
+    /* ============= REQEST BOOKING REPAIR PAGE  =================== */
 
 
 
